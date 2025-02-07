@@ -13,13 +13,13 @@ public class Base {
 		driver=new ChromeDriver();
 			//driver=new EdgeDriver();
 			//open the specific url in minimize screen
-			driver.get("https://selenium.qabible.in/");
+			//driver.get("https://selenium.qabible.in/");
 			driver.manage().window().maximize();//initizlize maximize the screen
 			
 		}
 		public void driverCloseAndQuit()
 		{
-			//driver.close();
+			driver.close();
 		//driver.quit();//to close all window in current session
 		}
 		
